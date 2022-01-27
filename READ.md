@@ -1,0 +1,1 @@
+The current project will be a website based on recipes. I will be using the basics that I have learned on HTML and CSS. I will demonstrate everything that I have learned so far. From tags to attributes, adding images and links and everything in between.
