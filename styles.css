@@ -3,15 +3,50 @@
 body {
     width: 100%;
     height: 100%;
-    background-image: url(./img/background.jpeg);
-    background-repeat: no-repeat;    
+    background-image: url(./img/spoonb.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;  
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
+
+.row h1 {
+    color: orange;
+    border-bottom: 2px solid orange;
+    text-align: center;
+}
+
+.row p {
+    color: orange;
+    text-align: center;
+}
+
+.links li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(231, 178, 109);
+    border: 2px solid antiquewhite;
+    text-decoration: none;
+    padding: 20px 30px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    color: brown;
+    transition-duration: 0.45s;
+}
+
+.button:hover {
+    background-color: rgb(232, 150, 43);
+}
+
 
 
 
