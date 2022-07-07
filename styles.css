@@ -1,11 +1,15 @@
 /*CSS Style*/
-
+@media (min-width: 400px) {
+    body{
+        background-image: url(./img/spoonb2.jpg);
+    }
+}
 body {
     width: 100%;
     height: 100%;
     background-image: url(./img/spoonb.jpg);
     background-repeat: no-repeat;  
-    background-size: cover;  
+    background-size: cover;
 }
 
 .container {
