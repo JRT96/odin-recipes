@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/choco3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    border: 2px solid red;
+    width: fit-content;
+    color: brown;
+    background-color: bisque;
+}
+
+.header img {
+    width: fit-content;
+    height: 600px;
+    border: 2px solid bisque;
+    border-radius: 5px;
+}
+
+.content p {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid red;
+    width: fit-content;
+    color: brown;
+    background-color: bisque;
+}
+
+.content h2 {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid red;
+    width: fit-content;
+    color: brown;
+    background-color: bisque;
+}
+
+.content ul {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid red;
+    width: fit-content;
+    color: brown;
+    background-color: bisque;
+}
+
+.content ol {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid red;
+    width: fit-content;
+    color: brown;
+    background-color: bisque;
+    width: fit-content;
+}
